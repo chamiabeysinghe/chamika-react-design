@@ -1,8 +1,11 @@
 import React from "react";
 
 const Col = (props) => {
-    return(
-        <div className={`col-xl-${props.size}`} {...props}>
+    return (
+        // <div className={`col-xl-${props.size}`} {...props}>
+        //     {props.children} 
+        // </div>
+        <div className={`col-md-${props.size}`} {...props}>
             {props.children} 
         </div>
     )
